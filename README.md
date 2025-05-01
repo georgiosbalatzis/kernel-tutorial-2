@@ -11,7 +11,7 @@ While each tutorial part will include installation steps, here's a list of every
     brew install qemu
     brew install xorriso
     brew install nasm
-macOS
+
 We're going to be building an ELF executable, but macOS uses Mach-O. Clang is a really great cross-compiler, but we also need a cross-linker, which macOS does not include by default. At one point, I was able to install the gcc ELF bintuils directly from homebrew, but lately I've been unable to find a default that works. I'd love some pointers here. I used this:
 
     brew install https://raw.githubusercontent.com/Gallopsled/pwntools-binutils/master/osx/binutils-i386.rb
